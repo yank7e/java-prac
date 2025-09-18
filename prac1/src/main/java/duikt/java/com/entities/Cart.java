@@ -16,10 +16,6 @@ public class Cart {
         }
     }
 
-    public boolean removeProduct(Product product) {
-        return products.remove(product);
-    }
-
     public boolean removeProductById(int id) {
         Iterator<Product> it = products.iterator();
         while (it.hasNext()) {

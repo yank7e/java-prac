@@ -1,0 +1,19 @@
+package duikt.java.com.entities;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@AllArgsConstructor
+@Getter
+@Setter
+@ToString
+public class Product {
+    private int id;
+    private String name;
+    private double price;
+    private String description;
+    private Category category;
+}
+
